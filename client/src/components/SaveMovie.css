@@ -1,0 +1,38 @@
+.movie-submit {
+  border: 1px solid rgb(5, 49, 36);
+  width: 45%;
+  margin: 4rem auto;
+  padding: 1.1rem;
+}
+
+.movie-submit__input {
+  margin: 0.6rem;
+  margin-left: 0;
+  display: block;
+  width: 18rem;
+  height: 1.4rem;
+}
+
+.movie-submit__button {
+  display: block;
+  margin: 1.3rem auto;
+  width: 12rem;
+  height: 4rem;
+  border: 2px solid rgb(148, 140, 130);
+  background-color: rgb(195, 216, 163); 
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+.movie-submit__button:hover {
+  background-color: rgb(35, 36, 35);
+  color: white;
+  cursor: pointer;
+}
+
+label {
+  width: 18rem;
+  margin: auto;
+  display: block;
+}

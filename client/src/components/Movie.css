@@ -1,0 +1,21 @@
+.movie-list__item {
+  list-style:  none;
+  background-color: rgb(233, 245, 241);
+  padding: 0.2rem;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1.1rem;
+  border: 1px solid rgb(228, 228, 228);
+}
+
+.movie-list__item:hover{
+  background-color: beige;
+  cursor: pointer;
+}
+
+.movie-list__item-link {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: black;
+}
