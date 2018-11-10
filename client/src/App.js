@@ -40,7 +40,13 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <header>
-            <Link  onClick={this.fetchMoviesHandler} className="nav-link" to="/movies">Get Movies</Link>
+            <Link  
+              className="nav-link" 
+              to="/movies"
+              onClick={this.fetchMoviesHandler} 
+            >
+              Get Movies
+            </Link>
             <Link 
               className="nav-link" 
               to="/movie/submit"
