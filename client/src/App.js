@@ -41,7 +41,13 @@ class App extends Component {
         <div className="App">
           <header>
             <Link  onClick={this.fetchMoviesHandler} className="nav-link" to="/movies">Get Movies</Link>
-            <Link className="nav-link" to="/movie/submit">Save Movie</Link>
+            <Link 
+              className="nav-link" 
+              to="/movie/submit"
+              onClick={() => this.setState({ movie: {} })}
+            >
+              Save Movie
+            </Link>
           </header>
           <Route 
             path="/movieDetails"

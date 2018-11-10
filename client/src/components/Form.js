@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Form extends Component {
 
   state = {
-    title: this.props.movie.title ? this.props.movie.title : '',
-    genre: this.props.movie.genre ? this.props.movie.genre : ''
+    title: this.props.movie.title || '',
+    genre: this.props.movie.genre || ''
   }
 
   titleChangeHandler = (e) => {
